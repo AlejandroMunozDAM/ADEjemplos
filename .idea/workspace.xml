@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="51de554a-dcb4-4a4c-9c0e-ac9b0d3b2302" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ADRegexLog.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfile.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ad/regex/EjemploLog.java" afterDir="false" />
+    <list default="true" id="51de554a-dcb4-4a4c-9c0e-ac9b0d3b2302" name="Changes" comment="Con una cadena regex">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ad/regex/EjemploLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad/regex/EjemploLog.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,8 +49,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664204982572</updated>
-      <workItem from="1664204983878" duration="3746000" />
+      <workItem from="1664204983878" duration="7548000" />
     </task>
+    <task id="LOCAL-00001" summary="Con una cadena regex">
+      <created>1664209107466</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1664209107466</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -73,5 +74,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Con una cadena regex" />
+    <option name="LAST_COMMIT_MESSAGE" value="Con una cadena regex" />
   </component>
 </project>

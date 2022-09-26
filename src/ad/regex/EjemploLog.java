@@ -18,26 +18,34 @@ import java.util.regex.Pattern;
 public class EjemploLog {
 
     public static void main(String[] args) {
-        Pattern patron = Pattern.compile("\\d{2}\\/\\d{2} \\d{2}\\:\\d{2}\\:\\d{2}.+");
+        Pattern patronLinea = Pattern.compile("\\d{2}\\/\\d{2} \\d{2}\\:\\d{2}\\:\\d{2}.+");
+        Pattern patronNombreDireccion = Pattern.compile(".+interface (\\w+) .+ address (\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}),.+");
+//        Pattern patronDireccion = Pattern.compile(".+address (\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}),.+");
+
         LinkedList<String> interfaces = new LinkedList<>();
         try {
             for(String linea : Files.readAllLines(Paths.get("logfile.txt"))) {
                 // Comprobar match
-                Matcher matcher = patron.matcher(linea);
-                // Si no hay match, mostrar mensaje
-                // Si hay match:
-                // - extraer nombre de interfaz y dirección
-                // - comprobar si la interfaz apareció anteriormente
-                // - mostrar mensaje
+                Matcher matcher = patronLinea.matcher(linea);
                 if (matcher.matches()) {
-                    String nombreInterfaz = linea.replaceAll(".+ interface ","").replaceAll("[ has] .+","");
-                    String direccionInterfaz = linea.replaceAll(".+ address ","").replaceAll(", .+","");
+                    // Si hay match:
+                    // - extraer nombre de interfaz y dirección
+                    Matcher comprobadorNombreDireccion = patronNombreDireccion.matcher(linea);
+
+                    comprobadorNombreDireccion.matches();
+
+                    String nombreInterfaz = comprobadorNombreDireccion.group(1);
+                    String direccionInterfaz = comprobadorNombreDireccion.group(2);
+
+                    // - comprobar si la interfaz apareció anteriormente
+                    // - mostrar mensaje
                     if (!interfaces.contains(nombreInterfaz)) {
-                        interfaces.add(nombreInterfaz);
+                        interfaces.add(comprobadorNombreDireccion.group(1));
                         System.out.println("La interfaz "+nombreInterfaz+" se ha configurado con la IP "+direccionInterfaz);
                     } else {
                         System.out.println("La interfaz "+nombreInterfaz+" se ha reconfigurado con la IP "+direccionInterfaz);
                     }
+                    // Si no hay match, mostrar mensaje
                 } else {
                     System.out.println("Ignorando linea: \""+linea+"\"");
                 }
