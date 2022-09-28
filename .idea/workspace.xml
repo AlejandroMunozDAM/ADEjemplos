@@ -1,14 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="51de554a-dcb4-4a4c-9c0e-ac9b0d3b2302" name="Changes" comment="Con una cadena regex">
+    <list default="true" id="51de554a-dcb4-4a4c-9c0e-ac9b0d3b2302" name="Changes" comment="Version 2">
+      <change afterPath="$PROJECT_DIR$/src/ad/regex/ejemploAjedrez/Ajedrez.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ad/regex/ejemploAjedrez/enunciado.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ad/regex/ejemploAjedrez/partida.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ad/regex/ejemploArchivos/Archivos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ad/regex/ejemploArchivos/enunciado.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ad/regex/EjemploLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad/regex/EjemploLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ad/regex/EjemploLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad/regex/ejemploLog/EjemploLog.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -22,22 +34,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/ACCESO_A_DATOS/T1/pruebasXMLyXSML&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\PROCESOS\T1\ADRegexLog" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ad.regex.ejemploLog" />
       <recent name="ad.regex" />
     </key>
   </component>
@@ -49,7 +63,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664204982572</updated>
-      <workItem from="1664204983878" duration="7548000" />
+      <workItem from="1664204983878" duration="8088000" />
+      <workItem from="1664385715096" duration="5474000" />
     </task>
     <task id="LOCAL-00001" summary="Con una cadena regex">
       <created>1664209107466</created>
@@ -58,7 +73,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664209107466</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Version 2">
+      <created>1664214015132</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1664214015132</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -77,6 +99,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Con una cadena regex" />
-    <option name="LAST_COMMIT_MESSAGE" value="Con una cadena regex" />
+    <MESSAGE value="Version 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 2" />
   </component>
 </project>

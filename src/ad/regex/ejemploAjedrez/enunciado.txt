@@ -1,0 +1,20 @@
+Escribe un programa que lea un fichero de texto donde se almacena una partida de ajedrez. Cada línea del fichero almacena una jugada, con el siguiente formato:
+
+Coordenada de la pieza que se mueve (columna y fila), siendo la columna una letra minúscula de la "a" a la "h", y la fila un número entre 1 y 8.
+Tras la coordenada anterior, aparecerá una letra "x" solamente en el caso de que la pieza esté capturando a otra.
+A continuación aparecerá la coordenada de la casilla destino del movimiento, con el mismo formato que la coordenada inicial.
+Si la jugada resulta en jaque, la línea acabará con un signo "+". Si es jaque mate, acabará en "++".
+El programa deberá leer y validar cada línea usando una expresión regular, visualizando textualmente el significado de cada línea que sea válida.
+
+Por ejemplo, si el fichero contiene estas líneas:
+
+e2e4
+a3xb2
+h1h4+
+a1xc3++
+Deberá visualizarse lo siguiente:
+
+Jugada 1. La pieza en la casilla E2 se mueve a la casilla E4
+Jugada 2. La pieza en la casilla A3 captura a la pieza de la casilla B2
+Jugada 3. La pieza en la casilla H1 se mueve a la casilla H4 y hace jaque
+Jugada 4. La pieza en la casilla A1 captura a la pieza de la casilla C3 y hace jaque mate

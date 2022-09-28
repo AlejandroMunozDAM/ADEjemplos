@@ -1,0 +1,5 @@
+Escribe un programa que pida por teclado la ruta de una carpeta en el disco duro, y después pida una cadena de texto. El programa deberá buscar si en la ruta introducida hay ficheros cuyo nombre contenga la cadena introducida. Para cada fichero encontrado que sí la contenga, se deberá mostrar por consola:
+
+El nombre completo de ese fichero
+Su tamaño
+Si se puede ejecutar o no
